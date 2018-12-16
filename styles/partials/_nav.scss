@@ -4,12 +4,12 @@
     background: $backgroundSecondary;
     display: flex;
     align-items: center;
-    border: 1px solid red;
-    &__menu {
+    &__wrapper {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         text-transform: lowercase;
+        padding: 0;
     }
     &__links {
         &:first-child {

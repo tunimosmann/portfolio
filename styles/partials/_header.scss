@@ -10,25 +10,24 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        // border: 2px solid red;
+        padding: 0;
     }
     &__headingContainer {
-        // border: 2px solid blue;
         text-align: right;
     }
     &__heading {
         @include heading(100);
-        color: $color;
-        margin-bottom: 10px;
+        line-height: 10.2rem;
+        margin: 0;
     }
+    &__title,
     &__subtitle {
-        @include heading(40);
+        @include heading(30);
+        line-height: 3.2rem;
+        margin: 0;
+        color: $text;
     }
     &__imageContainer {
         width: 15%;
-        // border: 2px solid orange;
-    }
-    &__image {
-        
     }
 }

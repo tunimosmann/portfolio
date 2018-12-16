@@ -7,6 +7,7 @@ body {
     font-family: $fontFamily;
     color: $text;  
     font-weight: 400;
+    background: $background;
 }
 
 p {
@@ -44,4 +45,6 @@ img {
     width: 80%;
     max-width: 900px;
     margin: 0 auto;
+    padding: 150px 0;
+    border: 1px solid red;
 }

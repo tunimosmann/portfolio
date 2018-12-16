@@ -1,0 +1,40 @@
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        &--padding {
+            padding-top: 0;
+        }
+    }
+    &__headshotContainer,
+    &__imageContainer {
+        flex: 0 1 350px;
+        background: linear-gradient(-135deg, $color, $colorAccent);
+    }
+    &__headshot {
+        position: relative;
+        top: 25px;
+        left: 25px;
+    }    
+    &__textContainer {
+       flex: 0 1 450px; 
+    }
+    &__heading {
+        @include heading(40);
+        line-height: 4.2rem;
+        &--small {
+            font-size: 2.8rem;
+            line-height: 3rem;
+        }
+    }
+    &__link {
+        @include button(200px)
+    }
+    &__key {
+        position: relative;
+        top: 25px;
+        right: 25px;
+    }
+}

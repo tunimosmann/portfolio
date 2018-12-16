@@ -1,7 +1,7 @@
 $text: #050401;
 $background: #fefefe;
 $backgroundSecondary: #eeeeed;
-$color: #ff840a;
+$color: #ffa10a;
 $colorSecondary: #f6ced1;
 $colorAccent: #ff206e;
 
@@ -13,18 +13,23 @@ $fontFamily: 'Raleway', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: lowercase;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 0;
+    color: $color;
 }
 
-// @mixin button($width) {
-//     font-weight: 700;
-//     letter-spacing: 1px;
-//     text-align: center;
-//     text-transform: uppercase;
-//     line-height: 32px;
-//     width: $width;
-//     background: $colorAccent;
-//     padding: 10px;
-//     transition: color 500ms ease-in, background 500ms ease-in;
-// }
+@mixin button($width) {
+    width: $width;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    font-weight: 700;
+    color: $color;        
+    border: 3px solid $color;
+    transition: background 300ms, color 300ms;
+    &:hover {
+        background: $color;
+        color: $background;
+    }
+}
