@@ -17,17 +17,17 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     overflow: hidden;
 }
 
-// .skipLink {
-//     position: absolute;
-//     left: -1000px;
-//     top: 5px;
-//     z-index: 999;
-//     background: $background;
-//     color: $text;
-//     padding: 10px;
-//     border: 2px solid $text;
-// }
+.skipLink {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: $background;
+    color: $text;
+    padding: 10px;
+    border: 2px solid $text;
+}
 
-// .skipLink:focus {
-//     left: 0;
-// }
+.skipLink:focus {
+    left: 0;
+}

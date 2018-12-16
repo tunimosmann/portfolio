@@ -24,7 +24,7 @@
     <link type="image/png" href="assets/favicon.png" rel="icon">
     <link rel="apple-touch-icon" href="assets/appleIcon.png">
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:700|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Tuni | Web Developer</title>
 </head>
@@ -35,9 +35,9 @@
 
 <!-- STICKY NAV MENU START -->
 <nav class="nav">
-    <ul class="nav__menu">
+    <ul class="nav__menu wrapper">
         <li class="nav__items">
-            <a href="#home" class="nav__links">Home</a>
+            <a href="#home" class="nav__links nav__links--selected">Home</a>
         </li>
 
         <li class="nav__items">
@@ -62,9 +62,15 @@
 <!-- HEADER START -->
 <header class="header" id="home">
     <div class="header__wrapper wrapper">
-        <h1 class="header__heading">Tuni</h1>
+        <div class="header__headingContainer">
+            <h1 class="header__heading">Tuni</h1>
         
-        <p class="header__subtitle">Web Developer</p>
+            <p class="header__subtitle">Web Developer</p>
+        </div>           
+
+        <div class="header__imageContainer">
+            <img src="assets/key.png" alt="A metal key." class="header__image">
+        </div>        
     </div>        
 </header>
 <!-- HEADER END -->
@@ -110,6 +116,17 @@
 <footer class="footer">
     <div class="footer__wrapper wrapper">
         <p class="footer__text">Developed by Tuni | 2018</p>
+        
+        <div class="footer__credits">
+            <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                href="https://unsplash.com/@mattartz?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Matt Artz"><span
+                    style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                        viewBox="0 0 32 32">
+                        <title>unsplash-logo</title>
+                        <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                    </svg></span><span style="display:inline-block;padding:2px 3px">Matt Artz</span></a>
+        </div>
     </div>
 </footer>
 <!-- FOOTER END -->

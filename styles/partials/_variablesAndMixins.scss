@@ -1,32 +1,30 @@
-$text: #2c2c2c;
-$textSecondary: #285e64;
-$background: #f0efed;
-$backgroundSecondary: #4f4f4f;
-$color: #f6a823;
-$colorSecondary: #a82706;
-$colorAccent: #05afc1;
+$text: #050401;
+$background: #fefefe;
+$backgroundSecondary: #eeeeed;
+$color: #ff840a;
+$colorSecondary: #f6ced1;
+$colorAccent: #ff206e;
 
 $fontSize: 20;
-$fontFamily: 'Roboto', sans-serif;
-$fontFamilySecondary: 'Lora', serif;
+$fontFamily: 'Raleway', sans-serif;
 
 @mixin heading($fontSizeHeading) { 
     font-size: ($fontSizeHeading / 10) * 1rem;    
     font-weight: 700;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     margin: 0;
     padding: 0;
 }
 
-@mixin button($width) {
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 32px;
-    width: $width;
-    background: $colorAccent;
-    padding: 10px;
-    transition: color 500ms ease-in, background 500ms ease-in;
-}
+// @mixin button($width) {
+//     font-weight: 700;
+//     letter-spacing: 1px;
+//     text-align: center;
+//     text-transform: uppercase;
+//     line-height: 32px;
+//     width: $width;
+//     background: $colorAccent;
+//     padding: 10px;
+//     transition: color 500ms ease-in, background 500ms ease-in;
+// }

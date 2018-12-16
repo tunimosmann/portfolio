@@ -145,13 +145,26 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   clip: rect(0 0 0 0);
   overflow: hidden; }
 
+.skipLink {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: #fefefe;
+  color: #050401;
+  padding: 10px;
+  border: 2px solid #050401; }
+
+.skipLink:focus {
+  left: 0; }
+
 html {
   font-size: 62.5%; }
 
 body {
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
-  color: #2c2c2c;
+  font-family: "Raleway", sans-serif;
+  color: #050401;
   font-weight: 400; }
 
 p {
@@ -160,7 +173,7 @@ p {
   padding: 0; }
 
 a {
-  color: #2c2c2c;
+  color: #050401;
   text-decoration: none;
   padding: 0 10px;
   display: block; }
@@ -182,4 +195,76 @@ img {
 
 .wrapper {
   width: 80%;
+  max-width: 900px;
   margin: 0 auto; }
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  background: #eeeeed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid red; }
+  .nav__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: lowercase; }
+  .nav__links:first-child {
+    padding-left: 0;
+    font-weight: 700; }
+
+.header {
+  width: 100%;
+  height: 70vh;
+  background: #eeeeed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header__wrapper {
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .header__headingContainer {
+    text-align: right; }
+  .header__heading {
+    font-size: 10rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+    color: #ff840a;
+    margin-bottom: 10px; }
+  .header__subtitle {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0; }
+  .header__imageContainer {
+    width: 15%; }

@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 70vh;
+    background: $backgroundSecondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        height: 40vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        // border: 2px solid red;
+    }
+    &__headingContainer {
+        // border: 2px solid blue;
+        text-align: right;
+    }
+    &__heading {
+        @include heading(100);
+        color: $color;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        @include heading(40);
+    }
+    &__imageContainer {
+        width: 15%;
+        // border: 2px solid orange;
+    }
+    &__image {
+        
+    }
+}
