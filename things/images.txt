@@ -6,3 +6,8 @@ Photo by Kristina Paukshtite from Pexels
 https://www.pexels.com/photo/person-holding-silver-colored-skeleton-key-1591158/
 
 photo by pam lau
+
+icons from http://konpa.github.io/devicon/
+
+BEM 
+EMMET

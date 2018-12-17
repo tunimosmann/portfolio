@@ -11,15 +11,23 @@
     &__headshotContainer,
     &__imageContainer {
         flex: 0 1 350px;
-        background: linear-gradient(-135deg, $color, $colorAccent);
+        position: relative;
     }
     &__headshot {
         position: relative;
         top: 25px;
-        left: 25px;
+        left: 30px;
+    }
+    &__frame {
+        position: absolute;
+        top: 0;
+        left: 0;
     }    
     &__textContainer {
-       flex: 0 1 450px; 
+       flex: 0 1 450px;
+       &--right {
+           text-align: right;
+       } 
     }
     &__heading {
         @include heading(40);
@@ -29,12 +37,9 @@
             line-height: 3rem;
         }
     }
-    &__link {
-        @include button(200px)
-    }
     &__key {
         position: relative;
         top: 25px;
-        right: 25px;
+        right: 30px;
     }
 }

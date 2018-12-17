@@ -1,9 +1,11 @@
 $text: #050401;
 $background: #fefefe;
-$backgroundSecondary: #eeeeed;
+$backgroundSecondary: #dbd6d3;
 $color: #ffa10a;
 $colorSecondary: #f6ced1;
 $colorAccent: #ff206e;
+
+
 
 $fontSize: 20;
 $fontFamily: 'Raleway', sans-serif;
@@ -19,15 +21,16 @@ $fontFamily: 'Raleway', sans-serif;
 }
 
 @mixin button($width) {
+    display: block;
     width: $width;
     padding: 12px;
-    margin-top: 20px;
+    margin: 20px auto 0 0;
     text-align: center;
     text-transform: lowercase;
     font-weight: 700;
     color: $color;        
     border: 3px solid $color;
-    transition: background 300ms, color 300ms;
+    transition: background 400ms, color 400ms;
     &:hover {
         background: $color;
         color: $background;

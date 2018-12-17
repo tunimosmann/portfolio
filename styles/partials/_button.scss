@@ -1,0 +1,6 @@
+.button {
+    @include button(200px);
+    &--right {
+        margin: 20px 0 0 auto;
+    }
+}

@@ -201,10 +201,29 @@ img {
   padding: 150px 0;
   border: 1px solid red; }
 
+.button {
+  display: block;
+  width: 200px;
+  padding: 12px;
+  margin: 20px auto 0 0;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: #ffa10a;
+  border: 3px solid #ffa10a;
+  -webkit-transition: background 400ms, color 400ms;
+  -o-transition: background 400ms, color 400ms;
+  transition: background 400ms, color 400ms; }
+  .button:hover {
+    background: #ffa10a;
+    color: #fefefe; }
+  .button--right {
+    margin: 20px 0 0 auto; }
+
 .nav {
   width: 100%;
   height: 10vh;
-  background: #eeeeed;
+  background: #dbd6d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,7 +249,7 @@ img {
 .header {
   width: 100%;
   height: 70vh;
-  background: #eeeeed;
+  background: #dbd6d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,6 +294,8 @@ img {
     line-height: 3.2rem;
     margin: 0;
     color: #050401; }
+  .header__subtitle {
+    color: #ff206e; }
   .header__imageContainer {
     width: 15%; }
 
@@ -297,19 +318,24 @@ img {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 350px;
   flex: 0 1 350px;
-  background: -webkit-linear-gradient(225deg, #ffa10a, #ff206e);
-  background: -o-linear-gradient(225deg, #ffa10a, #ff206e);
-  background: linear-gradient(-135deg, #ffa10a, #ff206e); }
+  position: relative; }
 
 .about__headshot {
   position: relative;
   top: 25px;
-  left: 25px; }
+  left: 30px; }
+
+.about__frame {
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .about__textContainer {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 450px;
   flex: 0 1 450px; }
+  .about__textContainer--right {
+    text-align: right; }
 
 .about__heading {
   font-size: 4rem;
@@ -324,23 +350,27 @@ img {
     font-size: 2.8rem;
     line-height: 3rem; }
 
-.about__link {
-  width: 200px;
-  padding: 12px;
-  margin-top: 20px;
-  text-align: center;
-  text-transform: lowercase;
-  font-weight: 700;
-  color: #ffa10a;
-  border: 3px solid #ffa10a;
-  -webkit-transition: background 300ms, color 300ms;
-  -o-transition: background 300ms, color 300ms;
-  transition: background 300ms, color 300ms; }
-  .about__link:hover {
-    background: #ffa10a;
-    color: #fefefe; }
-
 .about__key {
   position: relative;
   top: 25px;
-  right: 25px; }
+  right: 30px; }
+
+.skills__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 400px; }
+
+.skills__icon {
+  width: 10%;
+  margin-right: 30px; }
+  .skills__icon:nth-child(7n+0) {
+    margin-right: 0; }

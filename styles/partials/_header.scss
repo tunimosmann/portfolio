@@ -27,6 +27,9 @@
         margin: 0;
         color: $text;
     }
+    &__subtitle {
+        color: $colorAccent;
+    }
     &__imageContainer {
         width: 15%;
     }
