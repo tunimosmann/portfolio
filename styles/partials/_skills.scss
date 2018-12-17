@@ -1,4 +1,7 @@
 .skills {
+    &__wrapper {
+        background: $color;
+    }    
     &__container {
         display: flex;
         flex-wrap: wrap;
