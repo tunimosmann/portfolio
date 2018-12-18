@@ -444,6 +444,16 @@ img {
   color: #ffa10a;
   line-height: 4.2rem; }
 
+.work__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
 .skills {
   background: #ffa10a; }
   .skills__heading {
@@ -455,7 +465,7 @@ img {
     padding: 0;
     color: #ffa10a;
     line-height: 4.2rem;
-    color: #ff206e; }
+    color: #fefefe; }
   .skills__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -520,7 +530,7 @@ img {
   .footer__wrapper {
     padding: 15px 0; }
   .footer__text {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: 0 10px; }
     .footer__text--bigger {
@@ -542,3 +552,5 @@ img {
     display: inline;
     margin: 0;
     padding: 0; }
+    .footer__link:hover {
+      color: #ff206e; }

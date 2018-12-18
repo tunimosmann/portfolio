@@ -4,7 +4,7 @@
         padding: 15px 0;
     }
     &__text {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         text-align: center;
         padding: 0 10px;
         &--bigger {
@@ -25,5 +25,8 @@
         display: inline;
         margin: 0;
         padding: 0;
+        &:hover {
+            color: $colorAccent;
+        }
     }
 }
