@@ -1,6 +1,29 @@
 .footer {
     background: $backgroundSecondary;
     &__wrapper {
-        padding: 30px 0;
+        padding: 15px 0;
+    }
+    &__text {
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 0 10px;
+        &--bigger {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    }
+    &__span {
+        color: $colorAccent;
+    }
+    &__credits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__link {
+        display: inline;
+        margin: 0;
+        padding: 0;
     }
 }
