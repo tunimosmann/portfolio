@@ -198,7 +198,7 @@ img {
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 150px 0 0 0;
+  padding: 150px 0;
   position: relative; }
 
 .button {
@@ -475,6 +475,8 @@ img {
   -ms-flex-line-pack: center;
   align-content: center;
   margin-bottom: 100px; }
+  .work__project--margin {
+    margin: 0; }
 
 .work__textContainer {
   -webkit-box-flex: 0;
@@ -490,7 +492,7 @@ img {
     width: 80%;
     text-align: center;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 20px 0 0 0; }
   .work__text--bold {
     font-weight: 700; }
