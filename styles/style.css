@@ -199,7 +199,8 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 150px 0;
-  position: relative; }
+  position: relative;
+  border: 2px solid rebeccapurple; }
 
 .button {
   display: block;
@@ -354,17 +355,28 @@ img {
 
 .header {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background: #dbd6d3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  position: relative; }
+  .header__icon {
+    color: #ff206e;
+    position: absolute;
+    font-size: 3rem;
+    right: 5%;
+    bottom: 10%;
+    -webkit-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
   .header__wrapper {
     height: 40vh;
     display: -webkit-box;
@@ -376,7 +388,8 @@ img {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 100px; }
   .header__headingContainer {
     text-align: right; }
   .header__heading {
