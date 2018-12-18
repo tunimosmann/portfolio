@@ -1,7 +1,55 @@
 .work {
+    &__heading {
+        @include heading(40);
+        line-height: 4.2rem;
+        margin-bottom: 50px;
+        &--small {
+            font-size: 2.8rem;
+            line-height: 3rem;
+            margin-bottom: 20px;
+            text-transform: none;
+        }
+    }
     &__project {
         display: flex;
         justify-content: space-between;
         align-content: center;
+        margin-bottom: 100px;
+    }
+    &__textContainer {
+        flex: 0 1 400px;
+        padding: 20px;
+        &--right {
+            text-align: right;
+        }
+    }
+    &__text {
+        margin-bottom: 20px;
+        &--small {
+            width: 80%;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.6rem;
+            margin: 20px 0 0 0;
+        }
+        &--bold {
+           font-weight: 700; 
+        }
+    }
+    &__buttonContainer {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &--flexEnd {
+            justify-content: flex-end;
+        }
+    }
+    &__imageContainer {
+        padding: 20px;
+        flex: 0 1 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

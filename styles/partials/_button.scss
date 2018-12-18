@@ -4,4 +4,11 @@
         width: 100%;
         background: transparent;
     }
+    &--small {
+        width: 120px;
+        margin: 0 10px 0 0;
+    }
+    &--margin {
+        margin: 0 0 0 10px;
+    }
 }

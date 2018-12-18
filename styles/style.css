@@ -198,7 +198,7 @@ img {
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 150px 0;
+  padding: 150px 0 0 0;
   position: relative; }
 
 .button {
@@ -220,6 +220,11 @@ img {
   .button--wide {
     width: 100%;
     background: transparent; }
+  .button--small {
+    width: 120px;
+    margin: 0 10px 0 0; }
+  .button--margin {
+    margin: 0 0 0 10px; }
 
 .socialmedia {
   width: 45%; }
@@ -444,6 +449,22 @@ img {
   color: #ffa10a;
   line-height: 4.2rem; }
 
+.work__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #ffa10a;
+  line-height: 4.2rem;
+  margin-bottom: 50px; }
+  .work__heading--small {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
+    text-transform: none; }
+
 .work__project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -452,7 +473,58 @@ img {
   -ms-flex-pack: justify;
   justify-content: space-between;
   -ms-flex-line-pack: center;
-  align-content: center; }
+  align-content: center;
+  margin-bottom: 100px; }
+
+.work__textContainer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 400px;
+  flex: 0 1 400px;
+  padding: 20px; }
+  .work__textContainer--right {
+    text-align: right; }
+
+.work__text {
+  margin-bottom: 20px; }
+  .work__text--small {
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 20px 0 0 0; }
+  .work__text--bold {
+    font-weight: 700; }
+
+.work__buttonContainer {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+  .work__buttonContainer--flexEnd {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+
+.work__imageContainer {
+  padding: 20px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 450px;
+  flex: 0 1 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .skills {
   background: #ffa10a; }
