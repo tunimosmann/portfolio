@@ -1,0 +1,18 @@
+.form {    
+    &__name,
+    &__email,
+    &__text {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        height: 40px;
+        border: 3px solid $colorAccent;
+        font-family: $fontFamily;        
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;    
+    }    
+    &__text {        
+        height: 300px;
+    }
+}

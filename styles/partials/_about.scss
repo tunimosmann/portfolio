@@ -4,12 +4,8 @@
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
-        &--padding {
-            padding-top: 0;
-        }
     }
-    &__headshotContainer,
-    &__imageContainer {
+    &__headshotContainer {
         flex: 0 1 350px;
         position: relative;
     }
@@ -25,21 +21,9 @@
     }    
     &__textContainer {
        flex: 0 1 450px;
-       &--right {
-           text-align: right;
-       } 
     }
     &__heading {
         @include heading(40);
         line-height: 4.2rem;
-        &--small {
-            font-size: 2.8rem;
-            line-height: 3rem;
-        }
-    }
-    &__key {
-        position: relative;
-        top: 25px;
-        right: 30px;
     }
 }

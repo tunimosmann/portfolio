@@ -1,0 +1,32 @@
+.contact {
+    &__heading {
+        @include heading(40);
+        line-height: 4.2rem;
+        margin-bottom: 50px; 
+        &--small {
+            text-align: right;
+            font-size: 2.8rem;
+            line-height: 3rem;
+        }
+    }
+    &__socialmediaContainer,
+    &__formContainer {
+        width: 100%;
+        padding: 50px;
+        position: relative;                 
+    }
+    &__socialmediaContainer {
+        margin-bottom: 50px;
+        background: linear-gradient(135deg, #ffa10a, #ff206e)
+    }
+    &__formContainer {
+        background: linear-gradient(-135deg, #ffa10a, #ff206e)
+    }
+    &__background {
+        width: 100%;
+        background: $background;
+        position: absolute;
+        top: 25px;
+        left: 30px; 
+    }
+}

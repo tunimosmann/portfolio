@@ -3,7 +3,7 @@
     &__heading {
         @include heading(40);
         line-height: 4.2rem;
-        color: $background;
+        color: $colorAccent;
     }   
     &__container {
         display: flex;
@@ -23,6 +23,6 @@
         color: $background;
         font-size: 1.4rem;
         text-align: center;
-        // font-weight: 700;
+        font-weight: 700;
     }
 }

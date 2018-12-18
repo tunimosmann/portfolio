@@ -1,0 +1,21 @@
+.socialmedia {
+    width: 45%;  
+    &__heading {
+        @include heading(28);
+        line-height: 3rem;
+        margin-bottom: 50px;
+    }
+    &__iconsContainer {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__link {
+        font-size: 5rem;
+        padding: 15px;
+        color: $colorAccent;
+    }
+}

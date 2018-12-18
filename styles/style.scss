@@ -1,8 +1,14 @@
+//GLOBAL STYLES
 @import "partials/variablesAndMixins";
 @import "partials/setup";
 @import "partials/global";
 @import "partials/button";
+@import "partials/socialmedia";
+@import "partials/form";
+
+// index.html
 @import "partials/nav";
 @import "partials/header";
 @import "partials/about";
 @import "partials/skills";
+@import "partials/contact";

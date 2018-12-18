@@ -1,3 +1,7 @@
 .button {
     @include button(200px);
+    &--wide {
+        width: 100%;
+        background: transparent;
+    }
 }
