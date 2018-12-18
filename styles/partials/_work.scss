@@ -1,4 +1,7 @@
 .work {
+    &__wrapper {
+        padding-top: 0;        
+    }
     &__heading {
         @include heading(40);
         line-height: 4.2rem;
@@ -11,10 +14,16 @@
         }
     }
     &__project {
+        background: $background;
+        box-shadow: 
+        0 0 30px $backgroundSecondary, 
+        0 0 10px $text;
+        border-radius: 10px;
         display: flex;
         justify-content: space-between;
         align-content: center;
         margin-bottom: 100px;
+        padding: 10px;
         &--margin {
             margin: 0;
         }

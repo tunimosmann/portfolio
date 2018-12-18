@@ -199,8 +199,7 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 150px 0;
-  position: relative;
-  border: 2px solid rebeccapurple; }
+  position: relative; }
 
 .button {
   display: block;
@@ -462,6 +461,9 @@ img {
   color: #ffa10a;
   line-height: 4.2rem; }
 
+.work__wrapper {
+  padding-top: 0; }
+
 .work__heading {
   font-size: 4rem;
   font-weight: 700;
@@ -479,6 +481,10 @@ img {
     text-transform: none; }
 
 .work__project {
+  background: #fefefe;
+  -webkit-box-shadow: 0 0 30px #dbd6d3, 0 0 10px #050401;
+  box-shadow: 0 0 30px #dbd6d3, 0 0 10px #050401;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,7 +493,8 @@ img {
   justify-content: space-between;
   -ms-flex-line-pack: center;
   align-content: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding: 10px; }
   .work__project--margin {
     margin: 0; }
 
