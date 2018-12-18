@@ -1,4 +1,4 @@
-.contact {
+.contact {    
     &__heading {
         @include heading(40);
         line-height: 4.2rem;
@@ -11,9 +11,8 @@
     }
     &__socialmediaContainer,
     &__formContainer {
-        width: 100%;
-        padding: 50px;
-        position: relative;                 
+        width: 100%; 
+        padding: 3px;              
     }
     &__socialmediaContainer {
         margin-bottom: 50px;
@@ -23,10 +22,8 @@
         background: linear-gradient(-135deg, #ffa10a, #ff206e)
     }
     &__background {
-        width: 100%;
         background: $background;
-        position: absolute;
-        top: 25px;
-        left: 30px; 
+        width: 100%;
+        padding: 50px;
     }
 }

@@ -14,8 +14,13 @@
         align-items: center;
     }
     &__link {
-        font-size: 5rem;
+        font-size: 4.6rem;
         padding: 15px;
         color: $colorAccent;
+        transition: padding 200ms ease-in, transform 300ms ease-in;
+        &:hover {
+            padding: 20px 15px 10px 15px;
+            transform: scale(1.4);
+        }
     }
 }

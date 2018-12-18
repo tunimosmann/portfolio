@@ -20,23 +20,21 @@
     }
     &__keyContainer {
         position: relative;
-        flex: 0 0 165px;
+        flex: 0 0 250px;
         padding: 10px 0 10px 10px;
     }
     &__key {
-        width: 30%;
+        width: 20%;
         margin: 0 auto;
         display: block;
     }
     &__links {
-        // transition: color 500ms;
         position: relative;
         &:first-child {
             padding-left: 0;
             font-weight: 700;
         }
         &:hover {
-            color: $color;
             &:after {
                 content: "|";
                 position: absolute;
@@ -49,7 +47,7 @@
             text-transform: lowercase;
             padding: 9px 0;
             font-weight: 700;
-            color: $color;
+            color: $colorAccent;
             transition: color 700ms ease-in-out, background 700ms ease-in-out;
             background: $backgroundSecondary;
             position: absolute;
