@@ -248,6 +248,7 @@ img {
   appearance: none;
   height: 40px;
   border: 3px solid #ffa10a;
+  color: #050401;
   font-family: "Raleway", sans-serif;
   width: 100%;
   padding: 10px;
@@ -285,9 +286,9 @@ img {
     align-items: center;
     text-transform: lowercase;
     padding: 0;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 500px;
-    flex: 0 1 500px; }
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 300px;
+    flex: 1 0 300px; }
   .nav__keyContainer {
     position: relative;
     -webkit-box-flex: 0;
@@ -407,9 +408,10 @@ img {
   padding-bottom: 50px; }
 
 .about__headshotContainer {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 350px;
-  flex: 0 1 350px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 250px;
+  flex: 1 0 250px;
+  margin-right: 100px;
   position: relative; }
 
 .about__headshot {
@@ -423,9 +425,9 @@ img {
   left: 0; }
 
 .about__textContainer {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 450px;
-  flex: 0 1 450px; }
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 300px;
+  flex: 1 0 300px; }
 
 .about__heading {
   font-size: 4.8rem;
@@ -475,9 +477,9 @@ img {
     margin: 0; }
 
 .work__textContainer {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 400px;
-  flex: 0 1 400px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 200px;
+  flex: 1 0 200px;
   padding: 20px; }
   .work__textContainer--right {
     text-align: right; }
@@ -510,9 +512,9 @@ img {
 
 .work__imageContainer {
   padding: 20px;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 450px;
-  flex: 0 1 450px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 250px;
+  flex: 1 0 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -596,14 +598,25 @@ img {
   align-items: center; }
 
 .contact__form {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 700px;
-  flex: 0 1 700px; }
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 300px;
+  flex: 1 0 300px; }
 
 .contact__socialmedia {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto; }
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .footer {
   background: #dbd6d3; }
@@ -634,3 +647,18 @@ img {
     padding: 0; }
     .footer__link:hover {
       color: #ff206e; }
+
+/* Landscape tablet and laptops*/
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .wrapper {
+    width: 90%;
+    padding: 100px 0; }
+  .nav__wrapper {
+    padding: 0; }
+  .work__wrapper {
+    padding-top: 25px; } }
+
+/* Landscape phone to portrait tablet */
+/* Landscape phones */
+/* portrait phones to landscape phones  */

@@ -22,11 +22,13 @@
         align-items: center;
     }
     &__form {
-        flex: 0 1 700px;
-        // border: 2px solid rebeccapurple;
+        flex: 1 0 300px;
     }
     &__socialmedia {
-        flex: 0 1 auto;
-        // border: 2px solid rgb(108, 18, 197);
+        flex: 0 0 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }

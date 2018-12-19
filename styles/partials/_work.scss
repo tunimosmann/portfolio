@@ -29,7 +29,7 @@
         }
     }
     &__textContainer {
-        flex: 0 1 400px;
+        flex: 1 0 200px;
         padding: 20px;
         &--right {
             text-align: right;
@@ -59,7 +59,7 @@
     }
     &__imageContainer {
         padding: 20px;
-        flex: 0 1 450px;
+        flex: 1 0 250px;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -1,0 +1,37 @@
+/* Landscape tablet and laptops*/
+@media (max-width: 1280px) { 
+    //no changes
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+    .wrapper {
+        width: 90%;
+        padding: 100px 0;
+    }
+    .nav {
+        &__wrapper {
+            padding: 0;
+        }
+    }
+    .work {
+        &__wrapper {
+            padding-top: 25px;
+        }
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Landscape phones */
+@media (max-width: 480px) {
+
+}
+
+/* portrait phones to landscape phones  */
+@media (max-width: 320px) {
+
+}
