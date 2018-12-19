@@ -24,6 +24,14 @@
     &__textContainer {
        flex: 1 0 300px;
     }
+    &__text {
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+    &__span {
+        font-weight: 700;
+        font-style: italic;
+    }
     &__heading {
         @include heading(48);
         line-height: 5rem;

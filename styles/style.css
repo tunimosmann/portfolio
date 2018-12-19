@@ -433,6 +433,14 @@ img {
   -ms-flex: 1 0 300px;
   flex: 1 0 300px; }
 
+.about__text {
+  line-height: 3rem;
+  margin-bottom: 20px; }
+
+.about__span {
+  font-weight: 700;
+  font-style: italic; }
+
 .about__heading {
   font-size: 4.8rem;
   font-weight: 700;
