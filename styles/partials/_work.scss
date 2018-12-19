@@ -1,10 +1,10 @@
 .work {
     &__wrapper {
-        padding-top: 0;        
+        padding-top: 100px;
     }
     &__heading {
-        @include heading(40);
-        line-height: 4.2rem;
+        @include heading(48);
+        line-height: 5rem;
         margin-bottom: 50px;
         &--small {
             font-size: 2.8rem;

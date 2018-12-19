@@ -4,6 +4,7 @@
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
+        padding-bottom: 50px;
     }
     &__headshotContainer {
         flex: 0 1 350px;
@@ -23,7 +24,7 @@
        flex: 0 1 450px;
     }
     &__heading {
-        @include heading(40);
-        line-height: 4.2rem;
+        @include heading(48);
+        line-height: 5rem;
     }
 }

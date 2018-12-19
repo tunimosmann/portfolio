@@ -1,29 +1,32 @@
 .contact {    
     &__heading {
-        @include heading(40);
-        line-height: 4.2rem;
+        @include heading(48);
+        line-height: 5rem;
         margin-bottom: 50px; 
         &--small {
-            text-align: right;
             font-size: 2.8rem;
             line-height: 3rem;
         }
     }
-    &__socialmediaContainer,
-    &__formContainer {
-        width: 100%; 
-        padding: 3px;              
-    }
-    &__socialmediaContainer {
-        margin-bottom: 50px;
-        background: linear-gradient(135deg, #ffa10a, #ff206e)
-    }
-    &__formContainer {
-        background: linear-gradient(-135deg, #ffa10a, #ff206e)
+    &__border {
+        background: linear-gradient(-135deg, #ffa10a, #ff206e);
+        padding: 3px;
     }
     &__background {
         background: $background;
-        width: 100%;
         padding: 50px;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__form {
+        flex: 0 1 700px;
+        // border: 2px solid rebeccapurple;
+    }
+    &__socialmedia {
+        flex: 0 1 auto;
+        // border: 2px solid rgb(108, 18, 197);
     }
 }
