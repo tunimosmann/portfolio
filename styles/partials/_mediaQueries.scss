@@ -19,11 +19,140 @@
             padding-top: 25px;
         }
     }
+    .footer {
+        &__wrapper {
+            padding: 15px 0;
+        }
+    }    
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    html {
+        font-size: 55%;       
+    }
+    .wrapper {
+        width: 100%;
+        padding: 75px 30px;
+    }
+    .nav {
+        &__wrapper {
+            padding: 0 30px;
+        }
+        &__menu {
+            justify-content: center;
+        }
+        &__items {
+            &--display {
+                display: block;
+            }
+        }
+        &__keyContainer {
+            display: none;
+        }
 
+    }
+    .header {
+        &__wrapper {
+            height: 60vh;
+        }
+        &__imageContainer {
+            width: 20%;
+        }
+    }
+    .about {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 0;
+        }
+        &__headshotContainer {
+            margin: 0 0 50px 0;
+            width: 50%;
+        }
+        &__headshot {
+            position: relative;
+            top: 20px;
+            left: 25px;
+        }
+    }
+    .button {
+        width: 100%;
+        &--small {
+            // width: 100%;
+            margin: 0 0 10px 0;
+        }
+    }
+    .work {
+        &__project {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background: none;
+            box-shadow: none;
+            border-radius: 0;
+            width: 100%;
+        }
+        &__imageContainer {
+            padding: 20px;
+            width: 75%;
+        }
+        &__textContainer {
+            width: 100%;
+            &--textAlign {
+                text-align: left;
+            }
+        }
+    }
+    .skills {
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;      
+        }
+        &__icon {
+            width: 20%;
+            margin: 0 20px 30px 0;
+            &:nth-child(4n+0) {
+                margin-right: 0;  
+            }
+            &:nth-child(7n+0) {
+                margin: 0 20px 30px 0;  
+            } 
+        }
+         
+    }
+    .contact {
+        &__heading {
+            margin-bottom: 25px; 
+        }
+        &__container {
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__socialmedia {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+    }
+    .socialmedia {
+        &__link {
+            font-size: 2.8rem;
+            padding: 15px 10px;
+            &:hover {
+                padding: 20px 10px 10px 10px;
+                transform: scale(1.4);
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            padding: 15px 0;
+        }
+    }
 }
 
 /* Landscape phones */

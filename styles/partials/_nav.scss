@@ -18,6 +18,11 @@
         padding: 0;
         flex: 1 0 300px;
     }
+    &__items {
+        &--display {
+            display: none;
+        }
+    }
     &__keyContainer {
         position: relative;
         flex: 0 0 250px;
@@ -30,6 +35,9 @@
     }
     &__links {
         position: relative;
+        &--color {
+            color: $colorAccent;
+        }
         &:first-child {
             padding-left: 0;
             font-weight: 700;

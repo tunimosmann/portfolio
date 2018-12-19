@@ -24,6 +24,9 @@
         align-content: center;
         margin-bottom: 100px;
         padding: 10px;
+        &--flexReverse {
+            flex-direction: row-reverse;
+        }
         &--margin {
             margin: 0;
         }
@@ -31,7 +34,7 @@
     &__textContainer {
         flex: 1 0 200px;
         padding: 20px;
-        &--right {
+        &--textAlign {
             text-align: right;
         }
     }

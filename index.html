@@ -57,6 +57,10 @@
             <li class="nav__items">
                 <a href="#contact" class="nav__links">Contact</a>
             </li>
+
+            <li class="nav__items nav__items--display">
+                <a href="#home" class="nav__links nav__links--color">Universe</a>
+            </li>
         </ul>
 
         <div class="nav__keyContainer">
@@ -113,6 +117,8 @@
                 <p class="about__text">My name is Maria Mosmann, but call me Tuni. I'm a front-end developer based in Toronto. As this
                 portfolio, I'm also a work in progress.</p>
 
+                <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora quidem distinctio. Doloremque dicta et totam repellat incidunt magni, quidem nostrum exercitationem. Eos iure aperiam mollitia repellendus odit dolorum laboriosam.</p>
+
                 <a href="#contact" class="button">Contact me!</a>
             </div>  
         </div>        
@@ -148,25 +154,27 @@
             </div>
 
             <!-- bobaTO -->
-            <div class="work__project">
-                <div class="work__textContainer work__textContainer--right">
-                    <h3 class="work__heading work__heading--small">bobaTO</h3>
-            
-                    <p class="work__text work__text--bold">API App</p>
-
-                    <p class="work__text">Love bubble tea but always visit the same places? Choose an area to discover a new bubble tea shop!</p>
-                    
-                    <div class="work__buttonContainer work__buttonContainer--flexEnd">
-                        <a href="http://www.tuni.tech/bobato/" class="button button--small button button--margin" target="_blank">Live</a>
-                        
-                        <a href="https://github.com/mariamosmann/project4_sally_tuni" class="button button--small button--margin" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                
+            <div class="work__project work__project--flexReverse">              
                 <div class="work__imageContainer">
                     <img src="assets/bobaTO.png" alt="Computer screen displaying the bobaTO page." class="work__image">
 
                     <p class="work__text work__text--small">JavaScript | API | HTML5 | BEM | CSS3 | Sass | Pair Programming | Responsive Design</p>
+                </div>
+
+                <div class="work__textContainer work__textContainer--textAlign">
+                    <h3 class="work__heading work__heading--small">bobaTO</h3>
+                
+                    <p class="work__text work__text--bold">API App</p>
+                
+                    <p class="work__text">Love bubble tea but always visit the same places? Choose an area to discover a new bubble tea
+                        shop!</p>
+                
+                    <div class="work__buttonContainer work__buttonContainer--flexEnd">
+                        <a href="http://www.tuni.tech/bobato/" class="button button--small button button--margin" target="_blank">Live</a>
+                
+                        <a href="https://github.com/mariamosmann/project4_sally_tuni" class="button button--small button--margin"
+                            target="_blank">GitHub</a>
+                    </div>
                 </div>
             </div>
 
@@ -194,26 +202,29 @@
             </div>           
 
             <!-- I CAN DO -->
-            <div class="work__project work__project--margin">           
-                <div class="work__textContainer work__textContainer--right">
-                    <h3 class="work__heading work__heading--small">I Can Do List</h3>
-
-                    <p class="work__text work__text--bold">React & Firebase App</p>
-        
-                    <p class="work__text">A to do list for those affected by an Anxiety Disorder. It was designed using common tools for fighting anxiety: do one task at a time, limit the length of your to do list,
-                    shift the focus from things that you have to do to things that you can do, and stay positive. It also contains information about Anxiety Disorders.</p>
-                        
-                    <div class="work__buttonContainer work__buttonContainer--flexEnd">
-                        <a href="https://youcandoit-8dbb9.firebaseapp.com/" class="button button--small button--margin" target="_blank">Live</a>
-                        
-                        <a href="https://github.com/mariamosmann/maria_mosmann_project5" class="button button--small button--margin" target="_blank">GitHub</a>
-                    </div>    
-                </div>
-                
+            <div class="work__project work__project--margin work__project--flexReverse">          
                 <div class="work__imageContainer">
                     <img src="assets/iCanDo.png" alt="Computer screen displaying the I Can Do List page." class="work__image">
 
                     <p class="work__text work__text--small">React | Firebase | JavaScript | HTML5 | BEM | CSS3 | Sass | Responsive Design</p>
+                </div>
+
+                <div class="work__textContainer work__textContainer--textAlign">
+                    <h3 class="work__heading work__heading--small">I Can Do List</h3>
+                
+                    <p class="work__text work__text--bold">React & Firebase App</p>
+                
+                    <p class="work__text">A to do list for those affected by an Anxiety Disorder. It was designed using common tools
+                        for fighting anxiety: do one task at a time, limit the length of your to do list,
+                        shift the focus from things that you have to do to things that you can do, and stay positive. It also contains
+                        information about Anxiety Disorders.</p>
+                
+                    <div class="work__buttonContainer work__buttonContainer--flexEnd">
+                        <a href="https://youcandoit-8dbb9.firebaseapp.com/" class="button button--small button--margin" target="_blank">Live</a>
+                
+                        <a href="https://github.com/mariamosmann/maria_mosmann_project5" class="button button--small button--margin"
+                            target="_blank">GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -388,6 +399,7 @@
                             <button class="button button--wide" id="submit">Submit<span class="sr-only">your message</span></button>
                         </form>
                         
+                        <!-- turn this in ul>li -->
                         <div class="contact__socialmedia socialmedia">
                             <a href="mailto:tuni.webdev@gmail.com" class="socialmedia__link">
                                 <span class="sr-only">Tuni's Email.</span>

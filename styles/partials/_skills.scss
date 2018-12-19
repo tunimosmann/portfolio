@@ -4,17 +4,17 @@
         @include heading(48);
         line-height: 5rem;
         color: $background;
+        margin-bottom: 30px;
     }   
     &__container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
-        height: 400px;        
+        align-items: center;      
     }
     &__icon {
         width: 10%;
-        margin-right: 30px;
+        margin: 0 30px 30px 0;
         &:nth-child(7n+0) {
             margin-right: 0;  
         }    
