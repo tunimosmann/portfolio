@@ -569,9 +569,7 @@ img {
     align-items: center; }
   .skills__icon {
     width: 10%;
-    margin: 0 30px 30px 0; }
-    .skills__icon:nth-child(7n+0) {
-      margin-right: 0; }
+    margin: 15px; }
   .skills__text {
     color: #fefefe;
     font-size: 1.4rem;
@@ -674,6 +672,10 @@ img {
     padding: 0; }
   .work__wrapper {
     padding-top: 25px; }
+  .skills__container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .footer__wrapper {
     padding: 15px 0; } }
 
@@ -736,33 +738,20 @@ img {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 50px; }
+    .work__project--margin {
+      margin: 0; }
   .work__imageContainer {
     padding: 20px;
     width: 75%; }
   .work__textContainer {
-    width: 100%; }
+    width: 100%;
+    padding: 20px 0 0 0; }
     .work__textContainer--textAlign {
       text-align: left; }
-  .skills__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
   .skills__icon {
-    width: 20%;
-    margin: 0 20px 30px 0; }
-    .skills__icon:nth-child(4n+0) {
-      margin-right: 0; }
-    .skills__icon:nth-child(7n+0) {
-      margin: 0 20px 30px 0; }
+    width: 20%; }
   .contact__heading {
     margin-bottom: 25px; }
   .contact__container {
@@ -791,4 +780,64 @@ img {
     padding: 15px 0; } }
 
 /* Landscape phones */
+@media (max-width: 480px) {
+  .nav__wrapper {
+    height: 20vh;
+    width: 100%;
+    padding: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .nav__menu {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .nav__items {
+    width: 30%; }
+  .nav__links {
+    padding: 0;
+    text-align: center;
+    margin: 3px;
+    -webkit-transition: color 300ms ease-in;
+    -o-transition: color 300ms ease-in;
+    transition: color 300ms ease-in; }
+    .nav__links:hover {
+      color: #ffa10a; }
+      .nav__links:hover:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        right: 50%; }
+  .header__wrapper {
+    margin-bottom: 30px;
+    padding: 30px 0; }
+  .header__heading {
+    font-size: 6rem;
+    line-height: 6.2rem; }
+  .header__title, .header__subtitle {
+    font-size: 2.6rem;
+    line-height: 2.8rem; }
+  .header__imageContainer {
+    width: 14%;
+    margin: 0 30px 0 15px; }
+  .about__headshotContainer {
+    width: 75%; }
+  .work__heading {
+    margin-bottom: 20px; }
+  .work__text--small {
+    width: 100%; }
+  .work__imageContainer {
+    padding: 0;
+    width: 90%; }
+  .skills__icon {
+    width: 22%; }
+  .skills__text {
+    display: none; }
+  .contact__wrapper {
+    padding: 70px 10px; }
+  .contact__background {
+    padding: 25px; } }
+
 /* portrait phones to landscape phones  */
