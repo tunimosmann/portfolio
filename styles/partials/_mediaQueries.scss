@@ -89,9 +89,7 @@
     }
     .work {
         &__project {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
             background: none;
             box-shadow: none;
             border-radius: 0;
@@ -107,7 +105,7 @@
         }
         &__textContainer {
             width: 100%;
-            padding: 20px 0 0 0;
+            padding: 20px;
             &--textAlign {
                 text-align: left;
             }
@@ -208,6 +206,9 @@
     .work {
         &__heading {
             margin-bottom: 20px;
+        }
+        &__textContainer {
+            padding: 20px 0 0 0;
         }
         &__text {
             &--small {

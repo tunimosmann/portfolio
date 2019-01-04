@@ -14,7 +14,6 @@
         }
     }
     &__project {
-        background: $background;
         box-shadow: 
         0 0 30px $backgroundSecondary, 
         0 0 10px $text;
@@ -22,6 +21,7 @@
         display: flex;
         justify-content: space-between;
         align-content: center;
+        flex-wrap: wrap;
         margin-bottom: 100px;
         padding: 10px;
         &--flexReverse {
@@ -32,7 +32,7 @@
         }
     }
     &__textContainer {
-        flex: 1 0 200px;
+        flex: 1 0 250px;
         padding: 20px;
         &--textAlign {
             text-align: right;
@@ -62,7 +62,7 @@
     }
     &__imageContainer {
         padding: 20px;
-        flex: 1 0 250px;
+        flex: 1 0 280px;
         display: flex;
         flex-direction: column;
         align-items: center;
