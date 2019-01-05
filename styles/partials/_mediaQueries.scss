@@ -66,19 +66,20 @@
     }
     .about {
         &__wrapper {
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
             padding-bottom: 0;
         }
         &__headshotContainer {
             margin: 0 0 50px 0;
-            width: 50%;
+            flex: 0 0 300px; 
         }
         &__headshot {
             position: relative;
             top: 20px;
             left: 25px;
+        }
+        &__textContainer {
+            flex-basis: 400px;
         }
     }
     .button {
@@ -200,7 +201,10 @@
     }
     .about {
         &__headshotContainer {
-            width: 75%;
+            flex-basis: 200px;
+        }
+        &__textContainer {
+            flex-basis: 220px;
         }
     }
     .work {
