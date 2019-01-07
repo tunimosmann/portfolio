@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Tuni, Maria Mosmann, front-end developer, developer, web developer">
-    <!-- ADD SHORT BIO -->
-    <meta name="description" content="">
+    <meta name="description" content="Front-end developer based in Toronto. HackerYou Cohort 20 alumna. Food adventurer, theatre nerd, terrible gamer, avid reader, proudly geek.">
     <meta property="og:title" content="Tuni | Web Developer">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://tuni.tech">
-    <!-- ADD MINIATURE -->
-    <meta property="og:image" content="">
+    <meta property="og:url" content="http://www.tuni.tech">
+    <meta property="og:image" content="assets/miniature,jpg">
     <meta property="og:site_name" content="Tuni | Web Developer">
-    <!-- ADD SHORT BIO -->
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Front-end developer based in Toronto. HackerYou Cohort 20 alumna. Food adventurer, theatre nerd, terrible gamer, avid reader, proudly geek.">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="http://tuni.tech">
+    <meta name="twitter:url" content="http://www.tuni.tech">
     <meta name="twitter:title" content="Tuni | Web Developer">
-    <!-- ADD SHORT BIO -->
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="Front-end developer based in Toronto. HackerYou Cohort 20 alumna. Food adventurer, theatre nerd, terrible gamer, avid reader, proudly geek.">
     <link type="image/png" href="assets/favicon.png" rel="icon">
     <link rel="apple-touch-icon" href="assets/appleIcon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
@@ -104,19 +100,40 @@
 
     <!-- ABOUT START -->
     <section class="about" id="about">
-        <div class="about__wrapper wrapper">
+        <div class="about__wrapper wrapper scrollme">
             <div class="about__headshotContainer">      
-                <img src="assets/headshot.jpg" alt="Tuni sitting in an armchair." class="about__headshot">
+                <img src="assets/headshot.jpg" 
+                alt="Tuni sitting in an armchair." 
+                class="about__headshot animateme"
+                data-when="view"
+                data-from="0.5"
+                data-to="0"
+                data-translatex="-500"
+                data-translatey="300">
 
-                <img src="assets/gradient1.png" alt="Gradient frame." aria-hidden="true" class=" about__frame">
+                <img src="assets/gradient1.png" 
+                alt="Gradient frame." 
+                aria-hidden="true" 
+                class="about__frame animateme"
+                data-when="view"
+                data-from="0.5"
+                data-to="0"
+                data-translatex="-500">
             </div>
 
-            <div class="about__textContainer">
+            <div class="about__textContainer animateme"
+                data-when="view"
+                data-from="0.5"
+                data-to="0"
+                data-translatey="750"
+            >
                 <h2 class="about__heading">About</h2>
 
-                <p class="about__text">My name is Maria Mosmann, but call me Tuni. I'm a front-end developer based in Toronto. I have a background in design, but it always felt like something was missing. The missing pieces were the satisfaction that you get when you solve a puzzle, the breaking and fixing things, and the need to always be learning something and improving myself. I found all of that and a lot more in coding.</p>
+                <p class="about__text">My name is Maria Mosmann, but call me Tuni. I'm a front-end developer based in Toronto. I have a background in design, but it always felt like something was missing. The missing pieces were the satisfaction I get when I solve a problem, the fun I get from breaking and fixing things, and the joy in always learning something and improving myself. I found all of that and much more in coding. It's addictive!</p>
 
-                <p class="about__text">I love going on food adventures and will try anything <span class="about__span">but</span> balut. You have to draw the line somewhere, right?! I'm a shameless geek, a terrible gamer, and an avid reader. I have a weird taste in music (it's called "eclectic", ok?!).</p>
+                <p class="about__text">I believe that making a site accessible and with great performance is as important as making it beautiful and fun. I'm always looking for solutions to make my sites enjoyable for <span class="about__span">everyone</span>.</p>
+
+                <p class="about__text">I love going on food adventures and will try anything <span class="about__span">but</span> balut. You have to draw the line somewhere, right?! I'm a shameless geek, a terrible gamer, a theatre nerd, and an avid reader. I have a weird taste in music (it's called "eclectic", ok?!) and singing is one of the things that makes me the happiest.</p>
 
                 <a href="#contact" class="button">Contact me!</a>
             </div>  
@@ -127,10 +144,15 @@
     <!-- WORK START -->
     <section class="work" id="work">
         <div class="work__wrapper wrapper">
-            <h2 class="work__heading" >Work</h2>
+            <h2 class="work__heading">Work</h2>
 
             <!-- I CAN DO -->
-            <div class="work__project">
+            <div class="work__project scrollme animateme"
+            data-when="view"
+            data-from="0.7"
+            data-to="0"
+            data-opacity="0"
+            >
                 <div class="work__imageContainer">
                     <img src="assets/iCanDo.png" alt="Computer screen displaying the I Can Do List page." class="work__image">
             
@@ -160,7 +182,11 @@
             </div>
 
             <!-- bobaTO -->
-            <div class="work__project work__project--flexReverse">              
+            <div class="work__project work__project--flexReverse scrollme animateme"
+            data-when="view"
+            data-from="0.7"
+            data-to="0"
+            data-opacity="0">              
                 <div class="work__imageContainer">
                     <img src="assets/bobaTO.png" alt="Computer screen displaying the bobaTO page." class="work__image">
 
@@ -185,7 +211,11 @@
             </div>
 
             <!-- SOPHIE -->
-            <div class="work__project">
+            <div class="work__project scrollme animateme"
+            data-when="view"
+            data-from="0.7"
+            data-to="0"
+            data-opacity="0">
                 <div class="work__imageContainer">
                     <img src="assets/sofie.png" alt="Computer screen displaying the It's All About Sophie page." class="work__image">
 
@@ -208,7 +238,11 @@
             </div>
             
             <!-- NEOPITS -->
-            <div class="work__project work__project--margin work__project--flexReverse">
+            <div class="work__project work__project--margin work__project--flexReverse scrollme animateme"
+            data-when="view"
+            data-from="0.7"
+            data-to="0"
+            data-opacity="0">
                 <div class="work__imageContainer">
                     <img src="assets/neopits.png" alt="Computer screen displaying the Neopits JavaScript game." class="work__image">
             
@@ -486,5 +520,14 @@
     </div>
 </footer>
 <!-- FOOTER END -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+
+<script src="scripts/jquery.scrollme.js"></script>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>
