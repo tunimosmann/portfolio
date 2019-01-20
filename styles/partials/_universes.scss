@@ -1,0 +1,42 @@
+.universes {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        padding: 0;
+    }
+    &__h2 {
+        @include heading(48);
+        line-height: 5rem;
+        color: #fff;
+    }
+    &__text {
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+    &__keys {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &__key {
+        margin: 30px;
+    }
+    &__link {
+        height: 120px;
+    }
+    &__icon {
+        margin: 0 auto;
+        height: 100%;
+    }
+    &__soon {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
